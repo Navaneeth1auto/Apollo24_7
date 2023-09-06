@@ -12,62 +12,58 @@ public class Operations {
 	private WaitClass wait;
 	public JavaScriptExecutorClass jse;
 	private Logger log;
+
 	public Operations(WebDriver driver) {
-		this.driver=driver;
-		wait=new WaitClass(driver);
-		jse=new JavaScriptExecutorClass(driver);
-		log=LogManager.getLogger(Operations.class);
+		this.driver = driver;
+		wait = new WaitClass(driver);
+		jse = new JavaScriptExecutorClass(driver);
+		log = LogManager.getLogger(Operations.class);
 	}
-	
+
 	public String getPageTitleOperation() {
 		return driver.getTitle();
 	}
-	
+
 	public boolean elementVisiblityOperation(WebElement element) {
-		boolean actual=false;
+		boolean actual = false;
 		try {
 			wait.elementToBeVisible(element);
-			actual=true;
+			actual = true;
 		} catch (Exception e) {
-			log.error("Element Visiblity operation failed.. :"+e.getMessage());
+			log.warn("Element Visiblity operation failed.. :" + e.getClass());
 		}
 		return actual;
 	}
-	
+
 	public boolean clickOperation(WebElement element) {
-		 boolean actual = false;
+		boolean actual = false;
 		try {
 			wait.elementToBeClickable(element);
 			element.click();
-			actual =true;
+			actual = true;
+		} catch (NoSuchElementException e3) {
+			log.error("No such Element in Page so click operation not performed.... ");
 		} catch (Exception e) {
-			try {
-				log.warn("In Operation click try 2 block : "+e.getMessage());
-				jse.clickWithJSE(element);
-				actual=true;
-			} catch (Exception e2) {
-				log.error("Click operation not performed...: "+e2.getMessage());
-			}
+			log.error("click operation do not performed: "+ e.getClass());
 		}
 		return actual;
 	}
-	
+
 	public boolean sendkeysOperation(WebElement element, String text) {
-		boolean actual=false;
+		boolean actual = false;
 		{
 			try {
 				wait.elementToBeVisible(element);
 				element.sendKeys(text);
-				actual=true;
-			}catch (NoSuchElementException e) {
+				actual = true;
+			} catch (NoSuchElementException e) {
 				log.error("No such Element in Page....: ");
-			}
-			catch (Exception e1) {
+			} catch (Exception e1) {
 				try {
 					jse.sendkeysWithJSE(element, text);
-					actual=true;
+					actual = true;
 				} catch (Exception e) {
-					log.error("Sendkeys operation does not performed.... : "+e.getMessage());
+					log.error("Sendkeys operation does not performed.... : " + e.getClass());
 				}
 			}
 		}

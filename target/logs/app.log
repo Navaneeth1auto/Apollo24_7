@@ -1,0 +1,126 @@
+2023-09-07 07:27:10,683 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:27:11,374 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:27:12,539 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:27:12,645 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:27:17,989 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:27:18,645 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:27:20,694 INFO o.MedicinesHomePage [main] 515832 is placed in Delivery Pincode input field.
+2023-09-07 07:27:21,055 INFO o.MedicinesHomePage [main] Submit is enabled.
+2023-09-07 07:27:22,473 INFO o.MedicinesHomePage [main] PASS
+2023-09-07 07:28:55,906 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:28:56,173 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:28:56,720 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:28:56,870 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:28:57,389 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:28:58,013 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:28:58,487 INFO o.MedicinesHomePage [main] 51583 is placed in Delivery Pincode input field.
+2023-09-07 07:28:58,564 INFO o.MedicinesHomePage [main] Submit is enabled.
+2023-09-07 07:31:59,757 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:32:00,045 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:32:00,882 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:32:01,108 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:32:01,500 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:32:02,015 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:32:02,385 INFO o.MedicinesHomePage [main] 51583 is placed in Delivery Pincode input field.
+2023-09-07 07:32:03,845 WARN u.Operations [main] In Operation click try 2 block : element click intercepted: Element <span>...</span> is not clickable at point (824, 470). Other element would receive the click: <div class="Eb El">...</div>
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1215278853443965d94bac59a766554f, clickElement {id=6D16FB61415E7D1DCC810B8F5B8B08E7_element_84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62689/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 2000, pageLoad: 100000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1215278853443965d94bac59a766554f)] -> xpath: //span[text()='Submit']]
+Session ID: 1215278853443965d94bac59a766554f
+2023-09-07 07:32:04,085 INFO o.MedicinesHomePage [main] Submit is enabled and clicked.
+2023-09-07 07:32:05,296 ERROR o.MedicinesHomePage [main] FAIL
+2023-09-07 07:40:37,084 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:40:37,232 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:40:37,727 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:40:37,836 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:40:38,175 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:40:38,665 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:40:39,115 INFO o.MedicinesHomePage [main] 51583 is placed in Delivery Pincode input field.
+2023-09-07 07:40:40,483 ERROR u.Operations [main] Click operation not performed...: element click intercepted: Element <span>...</span> is not clickable at point (824, 470). Other element would receive the click: <div class="Eb El">...</div>
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecf96ba38c164bad1e27748b7c52f770, clickElement {id=F0500EE6812AA929A14D643F828B42CE_element_84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62866/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 2000, pageLoad: 100000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ecf96ba38c164bad1e27748b7c52f770)] -> xpath: //span[text()='Submit']]
+Session ID: ecf96ba38c164bad1e27748b7c52f770
+2023-09-07 07:40:40,484 ERROR o.MedicinesHomePage [main] The entered pincode is of invalid size : 5
+2023-09-07 07:53:46,658 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:53:46,831 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:53:47,459 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:53:47,596 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:53:47,987 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:53:48,408 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:53:48,891 INFO o.MedicinesHomePage [main] 5158321 is placed in Delivery Pincode input field.
+2023-09-07 07:53:50,280 ERROR u.Operations [main] Click operation not performed...: element click intercepted: Element <span>...</span> is not clickable at point (824, 470). Other element would receive the click: <div class="Eb El">...</div>
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3077845246c1b21aef206eb6b813246, clickElement {id=03431E5708BDD4C27C44590A8340A7FD_element_84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63008/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 2000, pageLoad: 100000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f3077845246c1b21aef206eb6b813246)] -> xpath: //span[text()='Submit']]
+Session ID: f3077845246c1b21aef206eb6b813246
+2023-09-07 07:53:50,281 ERROR o.MedicinesHomePage [main] The entered pincode is of invalid size : 7 degits.
+2023-09-07 07:58:16,371 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 07:58:16,534 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 07:58:17,012 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 07:58:17,130 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 07:58:17,472 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 07:58:17,820 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 07:58:18,198 INFO o.MedicinesHomePage [main] 5158321 is placed in Delivery Pincode input field.
+2023-09-07 07:58:19,514 ERROR u.Operations [main] Sendkeys operation does not performed...getLocalizedMessage. : element click intercepted: Element <span>...</span> is not clickable at point (824, 470). Other element would receive the click: <div class="Eb El">...</div>
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94346cd2457673e77f4586f2251db53b, clickElement {id=694A2F8752E0320D6A4AC57B78C17257_element_84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63160/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 2000, pageLoad: 100000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (94346cd2457673e77f4586f2251db53b)] -> xpath: //span[text()='Submit']]
+Session ID: 94346cd2457673e77f4586f2251db53b
+2023-09-07 07:58:19,517 ERROR u.Operations [main] .toString. : org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (824, 470). Other element would receive the click: <div class="Eb El">...</div>
+  (Session info: chrome=116.0.5845.180)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94346cd2457673e77f4586f2251db53b, clickElement {id=694A2F8752E0320D6A4AC57B78C17257_element_84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.180, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\NAVANE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63160/devtoo..., se:cdpVersion: 116.0.5845.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 2000, pageLoad: 100000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (94346cd2457673e77f4586f2251db53b)] -> xpath: //span[text()='Submit']]
+Session ID: 94346cd2457673e77f4586f2251db53b
+2023-09-07 07:58:19,519 ERROR u.Operations [main] .getCause. : null
+2023-09-07 07:58:19,520 ERROR u.Operations [main] .getClass. : class org.openqa.selenium.ElementClickInterceptedException
+2023-09-07 07:58:19,522 ERROR o.MedicinesHomePage [main] The entered pincode is of invalid size : 7 digets.
+2023-09-07 08:02:14,404 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 08:02:14,598 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 08:02:15,292 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 08:02:15,402 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 08:02:15,722 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 08:02:16,223 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 08:02:16,595 INFO o.MedicinesHomePage [main] 5158321 is placed in Delivery Pincode input field.
+2023-09-07 08:02:17,869 ERROR u.Operations [main] Sendkeys operation does not performed.... : class org.openqa.selenium.ElementClickInterceptedException
+2023-09-07 08:02:17,869 ERROR o.MedicinesHomePage [main] The entered pincode is of invalid size : 7 digets.
+2023-09-07 08:25:13,802 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 08:25:14,071 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 08:25:14,515 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 08:25:14,596 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 08:25:14,929 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 08:25:15,458 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 08:25:15,834 INFO o.MedicinesHomePage [main] 515832 is placed in Delivery Pincode input field.
+2023-09-07 08:25:16,292 INFO o.MedicinesHomePage [main] Submit is enabled and clicked.
+2023-09-07 08:25:20,552 ERROR u.Operations [main] Element Visiblity operation failed.. :class org.openqa.selenium.TimeoutException
+2023-09-07 08:25:21,119 INFO o.MedicinesHomePage [main] PASS
+2023-09-07 08:28:09,494 INFO o.MedicinesHomePage [main] Medicines Home page opened successfully.
+2023-09-07 08:28:09,645 INFO o.MedicinesHomePage [main] Delivery Address text displayed in Page.
+2023-09-07 08:28:10,248 INFO o.MedicinesHomePage [main] Clicked on Delivery Address button.
+2023-09-07 08:28:10,335 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button displayed
+2023-09-07 08:28:10,658 INFO o.MedicinesHomePage [main] Enter Delivery Pincode button clicked
+2023-09-07 08:28:11,045 INFO o.MedicinesHomePage [main] Pop-up window displayed with text : help Us Serve You Better
+2023-09-07 08:28:11,416 INFO o.MedicinesHomePage [main] 111111 is placed in Delivery Pincode input field.
+2023-09-07 08:28:11,802 INFO o.MedicinesHomePage [main] Submit is enabled and clicked.
+2023-09-07 08:28:12,161 ERROR o.MedicinesHomePage [main] Error message: Sorry, we are not servicing in your area currently. Call 1860 500 0101 for pharmacy store nearby
+2023-09-07 08:30:30,749 ERROR o.MedicinesHomePage [main] Error message: Sorry, we are not servicing in your area currently. Call 1860 500 0101 for pharmacy store nearby
