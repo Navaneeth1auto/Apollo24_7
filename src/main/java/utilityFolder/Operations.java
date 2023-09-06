@@ -19,6 +19,21 @@ public class Operations {
 		log=LogManager.getLogger(Operations.class);
 	}
 	
+	public String getPageTitleOperation() {
+		return driver.getTitle();
+	}
+	
+	public boolean elementVisiblityOperation(WebElement element) {
+		boolean actual=false;
+		try {
+			wait.elementToBeVisible(element);
+			actual=true;
+		} catch (Exception e) {
+			log.error("Element Visiblity operation failed.. :"+e.getMessage());
+		}
+		return actual;
+	}
+	
 	public boolean clickOperation(WebElement element) {
 		 boolean actual = false;
 		try {
@@ -31,8 +46,7 @@ public class Operations {
 				jse.clickWithJSE(element);
 				actual=true;
 			} catch (Exception e2) {
-				System.out.println("Click operation Element not performed...: "+e2.getMessage());
-				log.error(e2.getMessage());
+				log.error("Click operation not performed...: "+e2.getMessage());
 			}
 		}
 		return actual;
